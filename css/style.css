@@ -1,0 +1,27 @@
+.nav-bar {
+    width: 4rem;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #1d1d1d;
+    color: aliceblue;
+}
+
+#nav-home {
+    float: left;
+    height: 2rem;
+    width: 2rem;
+}
+
+#nav-projects {
+    float: left;
+    height: 2rem;
+    width: 2rem;
+}
+
+#nav-blog {
+    float: left;
+    height: 2rem;
+    width: 2rem;
+}
