@@ -43,3 +43,11 @@ npm run dev
 ```
 
 Vite will give you a local URL where you can view the site. Open it in your browser and you're good to go!
+
+## Contributing
+
+If you find any bugs or have suggestions for improvements, feel free to open an issue or create a pull request. I'm always happy to receive feedback and contributions!
+
+### gitmoji
+
+This project uses [gitmoji](https://gitmoji.dev/) for commit messages. Please use it when contributing to this project.
