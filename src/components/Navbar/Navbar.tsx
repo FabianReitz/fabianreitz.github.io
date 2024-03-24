@@ -10,22 +10,22 @@ export const Navbar = () => {
         <Logo />
         <ul className='flex opacity-80 gap-8 text-2xl text-white'>
           <li>
-            <a href='#about-me' className='hover:text-[#ad1457]'>
+            <a href='#about-me' className='hover:text-[#e91e62]'>
               About me
             </a>
           </li>
           <li>
-            <a href='#skills' className='hover:text-[#ad1457]'>
+            <a href='#skills' className='hover:text-[#e91e62]'>
               Skills
             </a>
           </li>
           <li>
-            <a href='#projects' className='hover:text-[#ad1457]'>
+            <a href='#projects' className='hover:text-[#e91e62]'>
               Projects
             </a>
           </li>
           <li>
-            <a href='#contact' className='hover:text-[#ad1457]'>
+            <a href='#contact' className='hover:text-[#e91e62]'>
               Contact
             </a>
           </li>
