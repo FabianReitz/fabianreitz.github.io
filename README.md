@@ -1,30 +1,45 @@
-# React + TypeScript + Vite
+# fabianreitz.dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal website and portfolio repository! This project was made with [React](https://reactjs.org/) and [Vite](https://vitejs.dev/).
 
-Currently, two official plugins are available:
+It is hosted using [GitHub Pages](https://pages.github.com/) and can be accessed at [fabianreitz.dev](https://fabianreitz.dev).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **About me**: Learn more about me and my background.
+- **Skills**: See what technologies I'm familiar with.
+- **Projects**: Check out some of my projects and see what I've been working on.
+- **Contact**: Get in touch with me.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+- [**React**](https://reactjs.org/): JavaScript library for building user interfaces.
+- [**TypeScript**](https://www.typescriptlang.org/): Typed superset of JavaScript that compiles to plain JavaScript.
+- [**Vite**](https://vitejs.dev): Build tool that aims to provide a faster and leaner development experience for modern web projects.
+- [**Tailwind CSS**](https://tailwindcss.com/): Utility-first CSS framework for rapidly building custom designs.
+- [**GitHub Pages**](https://pahes.github.com): Static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub.
+- [**GitHub Actions**](https://github.com/features/actions): CI/CD tool that helps automate software workflows.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Getting Started
+
+First, clone the repository to a nice place on your machine and cd into the project directory:
+
+```bash
+cd projects
+git clone https://github.com/FabianReitz/FabianReitz.github.io.git
+cd FabianReitz.github.io
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Next, install the dependencies:
+
+```bash
+npm install
+```
+
+Finally, start the development server:
+
+```bash
+npm run dev
+```
+
+Vite will give you a local URL where you can view the site. Open it in your browser and you're good to go!
