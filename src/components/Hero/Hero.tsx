@@ -1,8 +1,12 @@
+import { FaArrowDown } from 'react-icons/fa';
+
+import { Navbar } from '../Navbar/Navbar';
 import { Socials } from '../Socials/Socials';
 
 export const Hero = () => {
   return (
-    <section id='about-me' className='flex'>
+    <section id='about-me' className='h-screen'>
+      <Navbar />
       <div className='mx-auto flex'>
         <div className='w-5/12 my-auto'>
           <h1 className='text-6xl font-bold text-center text-white'>
@@ -32,6 +36,7 @@ export const Hero = () => {
           </div>
         </div>
       </div>
+      <FaArrowDown className='fill-slate-300 absolute bottom-5 left-1/2 -translate-x-1/2 w-16 h-16' />
     </section>
   );
 };
