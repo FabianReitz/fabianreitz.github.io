@@ -5,14 +5,14 @@ import { Socials } from '../Socials/Socials';
 
 export const Hero = () => {
   return (
-    <section id='about-me' className='h-screen'>
+    <section id='hero' className='h-screen'>
       <Navbar />
       <div className='mx-auto flex'>
         <div className='w-5/12 my-auto'>
-          <h1 className='text-6xl font-bold text-center text-white'>
+          <h1 className='text-6xl font-bold text-center'>
             Hi, I'm <span className='text-[#e91e62]'>Fabian</span>!
           </h1>
-          <p className='pt-10 text-2xl text-center text-white leading-relaxed mx-7 mb-12'>
+          <p className='pt-10 text-2xl text-center leading-relaxed mx-7 mb-12'>
             I'm a{' '}
             <span className='text-[#e91e62] text-3xl'>
               Fullstack Web Developer

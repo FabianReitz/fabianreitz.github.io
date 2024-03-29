@@ -5,7 +5,7 @@ import {
   FaXingSquare,
 } from 'react-icons/fa';
 
-const iconStyles = 'fill-slate-300 h-16 w-16';
+const iconStyles = 'fill-slate-300 h-16 w-16 hover:fill-[#e91e62]';
 
 export const Socials = () => {
   return (
