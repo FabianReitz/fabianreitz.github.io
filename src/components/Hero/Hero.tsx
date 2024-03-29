@@ -1,3 +1,5 @@
+import { Socials } from '../Socials/Socials';
+
 export const Hero = () => {
   return (
     <section id='about-me' className='flex'>
@@ -14,13 +16,14 @@ export const Hero = () => {
             transforming visions into streamlined digital experiences. Let's
             create something exciting together!
           </p>
+          <Socials />
         </div>
         <div className='w-auto mx-auto mt-16'>
           <div className='size-fit rounded-3xl border border-cyan-500 rotate-6'>
             <div className='size-fit rounded-3xl border border-cyan-500 rotate-6'>
               <div className='size-fit rounded-3xl border border-cyan-500 rotate-6'>
                 <img
-                  className='rotate-[-18deg] h-[500px]'
+                  className='rotate-[-18deg] h-[450px]'
                   src='./img/me.png'
                   alt='Fabian portrait'
                 />
