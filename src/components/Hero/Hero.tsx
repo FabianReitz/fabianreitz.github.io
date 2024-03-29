@@ -36,7 +36,9 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-      <FaArrowDown className='fill-slate-300 absolute bottom-5 left-1/2 -translate-x-1/2 w-16 h-16' />
+      <div className='absolute bottom-5 left-1/2 -translate-x-1/2'>
+        <FaArrowDown className='fill-slate-300 w-16 h-16 animate-bounce' />
+      </div>
     </section>
   );
 };
