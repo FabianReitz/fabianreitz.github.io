@@ -21,7 +21,7 @@ export const Hero = () => {
               <div className='size-fit rounded-3xl border border-cyan-500 rotate-6'>
                 <img
                   className='rotate-[-18deg] h-[500px]'
-                  src='src/assets/img/me.png'
+                  src='./img/me.png'
                   alt='Fabian portrait'
                 />
               </div>
