@@ -1,6 +1,6 @@
-import { WordRoller } from '../WordRoller/WordRoller';
+import { WordRoller } from '../../components/WordRoller/WordRoller';
 
-export const AboutMe = () => {
+export const AboutMeSection = () => {
   const experienceInYears = new Date().getFullYear() - 2019;
 
   return (

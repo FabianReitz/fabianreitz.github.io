@@ -1,9 +1,9 @@
 import { FaArrowDown } from 'react-icons/fa';
 
-import { Navbar } from '../Navbar/Navbar';
-import { Socials } from '../Socials/Socials';
+import { Navbar } from '../../components/Navbar/Navbar';
+import { Socials } from '../../components/Socials/Socials';
 
-export const Hero = () => {
+export const HeroSection = () => {
   return (
     <section id='hero' className='h-screen'>
       <Navbar />
