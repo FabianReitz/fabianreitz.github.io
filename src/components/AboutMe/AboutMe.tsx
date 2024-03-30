@@ -44,24 +44,37 @@ export const AboutMe = () => {
           the players of our Dungeons & Dragons party as the{' '}
           <span className='text-[#e91e62]'>Dungeon Master</span>.
         </p>
-        <p className='text-xl mx-auto w-1/2 mt-5'>
+        <h3 className='text-2xl mx-auto w-1/2 mt-5'>
           After work I{' '}
           <WordRoller
             words={[
-              'play video games',
-              'play Dungeons & Dragons',
-              'code the next billion dollar app',
-              'finetune my 3D printer',
-              'discover virtual realities',
-              'scuba dive',
-              'contemplate my next PC upgrade',
-              'stay up-to-date with tech news',
-              'watch movies',
-              'spend time with my friends',
-              'cook delicious meals',
+              '🎮 play video games',
+              '🧙‍♂️ play Dungeons & Dragons',
+              '👨‍💻 code the next billion dollar app',
+              '🪛 finetune my 3D printer',
+              '👓 discover virtual realities',
+              '🤿 scuba dive',
+              '⌨️ contemplate my next PC upgrade',
+              '📰 stay up-to-date with tech news',
+              '🍿 watch movies',
+              '👥 spend time with my friends',
+              '👨‍🍳 cook delicious meals',
+              '☕️ dive into the rabbot hole of espresso brewing',
             ]}
           />
           .
+        </h3>
+        <p className='text-xl mx-auto w-1/2 mt-5'>
+          I am open to new <span className='text-[#e91e62]'>Opportunities</span>{' '}
+          where I can contribute, learn and grow. If you have a demand for my
+          skills or just want to chat, feel free to{' '}
+          <a
+            href='mailto:hello@fabianreitz.dev'
+            className='text-cyan-500 hover:underline'
+          >
+            reach out
+          </a>{' '}
+          to me.
         </p>
       </div>
     </section>
