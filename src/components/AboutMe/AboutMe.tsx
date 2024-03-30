@@ -59,7 +59,9 @@ export const AboutMe = () => {
               '🍿 watch movies',
               '👥 spend time with my friends',
               '👨‍🍳 cook delicious meals',
-              '☕️ dive into the rabbot hole of espresso brewing',
+              '☕️ dive into the rabbit hole of espresso brewing',
+              '🌱 tend to my garden',
+              '💨 enjoy the breeze of the wadden sea',
             ]}
           />
           .
