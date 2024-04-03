@@ -5,9 +5,9 @@ import { Socials } from '../../components/Socials/Socials';
 
 export const HeroSection = () => {
   return (
-    <section id='hero' className='h-screen'>
+    <section id='hero' className='h-screen flex flex-col'>
       <Navbar />
-      <div className='mx-auto flex'>
+      <div className='mx-auto flex flex-grow items-center'>
         <div className='w-5/12 my-auto'>
           <h1 className='text-6xl font-bold text-center'>
             Hi, I'm <span className='text-[#e91e62]'>Fabian</span>!

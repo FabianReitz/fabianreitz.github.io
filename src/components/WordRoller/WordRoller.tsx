@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 
-interface IProps {
+interface WordRollerProps {
   words: string[];
 }
 
-export const WordRoller = (props: IProps) => {
+export const WordRoller = (props: WordRollerProps) => {
   const [currentWord, setCurrentWord] = useState(props.words[0]);
 
   const index = useRef(0);
