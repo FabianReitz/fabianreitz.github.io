@@ -19,7 +19,7 @@ import {
   FaThumbsUp,
 } from 'react-icons/fa';
 import { IoPhonePortraitOutline } from 'react-icons/io5';
-import { MdDesignServices, MdHttp } from 'react-icons/md';
+import { MdConveyorBelt, MdDesignServices, MdHttp } from 'react-icons/md';
 import {
   SiAdobexd,
   SiConfluence,
@@ -125,7 +125,7 @@ export const SkillsSection = () => {
         <SkillsCard
           title='RxJS'
           skillLevelPercent={15}
-          image={<SiNestjs className='h-10 w-10' />}
+          image={<MdConveyorBelt className='h-10 w-10' />}
         />
         <SkillsCard
           title='Unit Testing'
