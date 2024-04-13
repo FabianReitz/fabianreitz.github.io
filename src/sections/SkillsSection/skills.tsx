@@ -88,6 +88,7 @@ export const skills: Skill[] = [
       'language',
     ],
     icon: <SiJavascript className='h-10 w-10' />,
+    isFavorite: true,
   },
   {
     title: 'SASS/SCSS/LESS',
@@ -124,6 +125,7 @@ export const skills: Skill[] = [
     projects: [],
     tags: ['frontend', 'backend', 'web', 'native', 'language'],
     icon: <SiTypescript className='h-10 w-10' />,
+    isFavorite: true,
   },
   {
     title: 'Angular',
@@ -142,6 +144,7 @@ export const skills: Skill[] = [
     projects: [],
     tags: ['frontend', 'web', 'library'],
     icon: <FaReact className='h-10 w-10' />,
+    isFavorite: true,
   },
   {
     title: 'React Native',
@@ -151,6 +154,7 @@ export const skills: Skill[] = [
     projects: [],
     tags: ['frontend', 'native', 'ios', 'android'],
     icon: <IoPhonePortraitOutline className='h-10 w-10' />,
+    isFavorite: true,
   },
   {
     title: 'Express.js',
@@ -169,6 +173,7 @@ export const skills: Skill[] = [
     projects: [],
     tags: ['backend', 'http', 'api', 'framework'],
     icon: <SiNestjs className='h-10 w-10' />,
+    isFavorite: true,
   },
   {
     title: 'RxJS',
@@ -196,6 +201,7 @@ export const skills: Skill[] = [
     projects: [],
     tags: ['database', 'nosql', 'backend'],
     icon: <SiMongodb className='h-10 w-10' />,
+    isFavorite: true,
   },
   {
     title: 'Elasticsearch',
@@ -295,6 +301,7 @@ export const skills: Skill[] = [
     projects: [],
     tags: ['ui', 'design', 'tool'],
     icon: <FaFigma className='h-10 w-10' />,
+    isFavorite: true,
   },
   {
     title: 'Adobe XD',
@@ -349,6 +356,7 @@ export const skills: Skill[] = [
     projects: [],
     tags: ['standard', 'communication', 'http'],
     icon: <MdHttp className='h-10 w-10' />,
+    isFavorite: true,
   },
   {
     title: 'WebSockets',

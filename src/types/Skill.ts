@@ -6,4 +6,5 @@ export type Skill = {
   projects?: string[];
   tags: string[];
   icon: JSX.Element;
+  isFavorite?: boolean;
 };
