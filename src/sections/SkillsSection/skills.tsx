@@ -51,9 +51,9 @@ import {
 } from 'react-icons/si';
 import { TiDocumentText } from 'react-icons/ti';
 
-import { Skill } from '../../types/Skill';
+import { Skill, SoftSkill } from '../../types/Skill';
 
-export const skills: Skill[] = [
+export const softwareDevelopmentSkills: Skill[] = [
   {
     title: 'HTML',
     category: 'Software Development',
@@ -276,6 +276,73 @@ export const skills: Skill[] = [
     icon: <FaThumbsUp className='h-10 w-10' />,
   },
   {
+    title: 'GitHub',
+    category: 'Software Development',
+    skillLevelPercent: 90,
+    description: 'It feels like home.',
+    projects: [],
+    tags: ['versioning', 'collaboration', 'tool', 'repository', 'hosting'],
+    icon: <FaGithub className='h-10 w-10' />,
+  },
+  {
+    title: 'Keycloak',
+    category: 'Software Development',
+    skillLevelPercent: 15,
+    description: 'I forgot my password.',
+    projects: [],
+    tags: ['usermanagement', 'authentication'],
+    icon: <FaPassport className='h-10 w-10' />,
+  },
+  {
+    title: 'Alfresco',
+    category: 'Software Development',
+    skillLevelPercent: 50,
+    description: 'Where did I put that file?',
+    projects: [],
+    tags: ['cms', 'filestorage'],
+    icon: <FaFolderOpen className='h-10 w-10' />,
+  },
+  {
+    title: 'DigitalOcean',
+    category: 'Software Development',
+    skillLevelPercent: 80,
+    description: 'An ocean is just a lot of droplets.',
+    projects: [],
+    tags: ['hosting', 'cloud'],
+    icon: <SiDigitalocean className='h-10 w-10' />,
+  },
+  {
+    title: 'REST API',
+    category: 'Software Development',
+    skillLevelPercent: 70,
+    description: 'GET, POST, PUT, DELETE. Repeat.',
+    projects: [],
+    tags: ['standard', 'communication', 'http'],
+    icon: <MdHttp className='h-10 w-10' />,
+    isFavorite: true,
+  },
+  {
+    title: 'WebSockets',
+    category: 'Software Development',
+    skillLevelPercent: 45,
+    description: 'They left you on read.',
+    projects: [],
+    tags: ['standard', 'communication'],
+    icon: <FaPeopleArrows className='h-10 w-10' />,
+  },
+  {
+    title: 'SSE',
+    category: 'Software Development',
+    skillLevelPercent: 50,
+    description: 'Be quiet, the server is talking!',
+    projects: [],
+    tags: ['standard', 'communication'],
+    icon: <FaServer className='h-10 w-10' />,
+  },
+];
+
+export const designSkills: Skill[] = [
+  {
     title: 'UI/UX Design',
     category: 'Design',
     skillLevelPercent: 85,
@@ -312,70 +379,9 @@ export const skills: Skill[] = [
     tags: ['ui', 'design', 'tool'],
     icon: <SiAdobexd className='h-10 w-10' />,
   },
-  {
-    title: 'GitHub',
-    category: 'Infrastructure',
-    skillLevelPercent: 90,
-    description: 'It feels like home.',
-    projects: [],
-    tags: ['versioning', 'collaboration', 'tool', 'repository', 'hosting'],
-    icon: <FaGithub className='h-10 w-10' />,
-  },
-  {
-    title: 'Keycloak',
-    category: 'Infrastructure',
-    skillLevelPercent: 15,
-    description: 'I forgot my password.',
-    projects: [],
-    tags: ['usermanagement', 'authentication'],
-    icon: <FaPassport className='h-10 w-10' />,
-  },
-  {
-    title: 'Alfresco',
-    category: 'Infrastructure',
-    skillLevelPercent: 50,
-    description: 'Where did I put that file?',
-    projects: [],
-    tags: ['cms', 'filestorage'],
-    icon: <FaFolderOpen className='h-10 w-10' />,
-  },
-  {
-    title: 'DigitalOcean',
-    category: 'Infrastructure',
-    skillLevelPercent: 80,
-    description: 'An ocean is just a lot of droplets.',
-    projects: [],
-    tags: ['hosting', 'cloud'],
-    icon: <SiDigitalocean className='h-10 w-10' />,
-  },
-  {
-    title: 'REST API',
-    category: 'Additional Skills',
-    skillLevelPercent: 70,
-    description: 'GET, POST, PUT, DELETE. Repeat.',
-    projects: [],
-    tags: ['standard', 'communication', 'http'],
-    icon: <MdHttp className='h-10 w-10' />,
-    isFavorite: true,
-  },
-  {
-    title: 'WebSockets',
-    category: 'Additional Skills',
-    skillLevelPercent: 45,
-    description: 'They left you on read.',
-    projects: [],
-    tags: ['standard', 'communication'],
-    icon: <FaPeopleArrows className='h-10 w-10' />,
-  },
-  {
-    title: 'SSE',
-    category: 'Additional Skills',
-    skillLevelPercent: 50,
-    description: 'Be quiet, the server is talking!',
-    projects: [],
-    tags: ['standard', 'communication'],
-    icon: <FaServer className='h-10 w-10' />,
-  },
+];
+
+export const additionalSkills: Skill[] = [
   {
     title: 'MacOS',
     category: 'Additional Skills',
@@ -466,6 +472,9 @@ export const skills: Skill[] = [
     tags: ['tool', 'productivity', 'communication'],
     icon: <FaSlack className='h-10 w-10' />,
   },
+];
+
+export const softSkills: SoftSkill[] = [
   {
     title: 'Teamwork',
     category: 'Soft Skills',

@@ -1,20 +1,12 @@
-import { Skill } from '../../types/Skill';
-import { SkillsCard } from '../../components/SkillsCard/SkillsCard';
-import { skills } from './skills';
+import { SkillsContainer } from '../../components/SkillsContainer/SkillsContainer';
+import {
+  additionalSkills,
+  designSkills,
+  softSkills,
+  softwareDevelopmentSkills,
+} from './skills';
 
 export const SkillsSection = () => {
-  const skillsByCategory: Record<string, Skill[]> = skills.reduce(
-    (acc, skill) => {
-      if (acc[skill.category]) {
-        acc[skill.category].push(skill);
-      } else {
-        acc[skill.category] = [skill];
-      }
-      return acc;
-    },
-    {} as Record<string, Skill[]>
-  );
-
   return (
     <section id='skills' className='h-screen w-full'>
       <div className='flex flex-col pt-20'>
@@ -25,26 +17,21 @@ export const SkillsSection = () => {
         </h3>
       </div>
 
-      {Object.keys(skillsByCategory).map((category) => {
-        return (
-          <>
-            <h4 className='text-2xl mx-auto mt-10 w-full text-center'>
-              {category}
-            </h4>
-            <div className='pt-5 px-72 flex justify-center flex-wrap gap-4'>
-              {skillsByCategory[category].map((skill) => {
-                return (
-                  <SkillsCard
-                    title={skill.title}
-                    skillLevelPercent={skill.skillLevelPercent}
-                    icon={skill.icon}
-                  />
-                );
-              })}
-            </div>
-          </>
-        );
-      })}
+      <h4 className='text-2xl mx-auto mt-10 w-full text-center'>
+        Software Developemnt
+      </h4>
+      <SkillsContainer skills={softwareDevelopmentSkills} />
+
+      <h4 className='text-2xl mx-auto mt-10 w-full text-center'>Design</h4>
+      <SkillsContainer skills={designSkills} />
+
+      <h4 className='text-2xl mx-auto mt-10 w-full text-center'>
+        Additional Skills
+      </h4>
+      <SkillsContainer skills={additionalSkills} />
+
+      <h4 className='text-2xl mx-auto mt-10 w-full text-center'>Soft Skills</h4>
+      <SkillsContainer skills={softSkills} />
     </section>
   );
 };

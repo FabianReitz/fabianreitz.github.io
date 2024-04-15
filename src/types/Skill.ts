@@ -1,10 +1,12 @@
-export type Skill = {
+export type SoftSkill = {
   title: string;
   category: string;
-  skillLevelPercent?: number;
-  description: string;
-  projects?: string[];
   tags: string[];
+  description: string;
   icon: JSX.Element;
+};
+export type Skill = SoftSkill & {
+  skillLevelPercent: number;
+  projects: string[];
   isFavorite?: boolean;
 };
