@@ -48,12 +48,12 @@ export const AboutMeSection = () => {
           After work I{' '}
           <WordRoller
             words={[
-              '🎮 play video games',
-              '🧙‍♂️ play Dungeons & Dragons',
+              '🎮 discover beautiful worlds in video games',
+              '🧙‍♂️ guide my players through intriguing stories in Dungeons & Dragons',
               '👨‍💻 code the next billion dollar app',
               '🪛 finetune my 3D printer',
               '👓 discover virtual realities',
-              '🤿 scuba dive',
+              '🤿 scuba dive into cold dark depths',
               '⌨️ contemplate my next PC upgrade',
               '📰 stay up-to-date with tech news',
               '🍿 watch movies',

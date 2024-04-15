@@ -17,7 +17,7 @@ export const WordRoller = (props: WordRollerProps) => {
       if (index.current === props.words.length - 1) {
         index.current = -1;
       }
-    }, 1500);
+    }, 1900);
 
     return () => clearInterval(interval);
   });
