@@ -5,10 +5,13 @@ import { Socials } from '../../components/Socials/Socials';
 
 export const HeroSection = () => {
   return (
-    <section id='hero' className='h-screen flex flex-col'>
+    <section
+      id='hero'
+      className='min-h-screen h-fit w-screen flex flex-col bg-red-500'
+    >
       <Navbar />
-      <div className='mx-auto flex flex-grow items-center'>
-        <div className='w-5/12 my-auto'>
+      <div className='mx-auto my-auto flex flex-col lg:flex-row items-center'>
+        <div className='lg:w-5/12 my-auto'>
           <h1 className='text-6xl font-bold text-center'>
             Hi, I'm <span className='text-[#e91e62]'>Fabian</span>!
           </h1>
@@ -27,7 +30,7 @@ export const HeroSection = () => {
             <div className='size-fit rounded-3xl border border-cyan-500 rotate-6'>
               <div className='size-fit rounded-3xl border border-cyan-500 rotate-6'>
                 <img
-                  className='rotate-[-18deg] h-[450px]'
+                  className='rotate-[-18deg] h-80 lg:h-[450px]'
                   src='./img/me.png'
                   alt='Fabian portrait'
                 />
@@ -36,9 +39,7 @@ export const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className='absolute bottom-5 left-1/2 -translate-x-1/2'>
-        <FaArrowDown className='fill-slate-300 w-16 h-16 animate-bounce' />
-      </div>
+      <FaArrowDown className='fill-slate-300 w-16 h-16 animate-bounce mx-auto mt-24' />
     </section>
   );
 };

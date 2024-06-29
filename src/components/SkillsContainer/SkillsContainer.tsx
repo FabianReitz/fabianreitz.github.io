@@ -15,7 +15,7 @@ export const SkillsContainer = (props: SkillsContainerProps) => {
 
   return (
     <>
-      <div className='pt-5 px-72 flex justify-center flex-wrap gap-4'>
+      <div className='pt-5 mx-auto max-w-[950px] px-5 flex justify-center flex-wrap gap-4'>
         {props.skills.slice(0, displayLimit).map((skill) => {
           return (
             <SkillCard
@@ -27,7 +27,7 @@ export const SkillsContainer = (props: SkillsContainerProps) => {
           );
         })}
       </div>
-      <div className='pt-5 px-72 flex justify-center flex-wrap gap-4'>
+      <div className='pt-5 mx-auto max-w-[950px] px-5 flex justify-center flex-wrap gap-4'>
         {props.skills.length > defaultSkillSize && (
           <button
             className='text-cyan-500 text-lg hover:text-cyan-400 transition-all'

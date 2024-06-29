@@ -4,19 +4,19 @@ export const AboutMeSection = () => {
   const experienceInYears = new Date().getFullYear() - 2019;
 
   return (
-    <section id='about-me' className='h-screen w-full'>
+    <section id='about-me' className='min-h-screen h-fit w-screen'>
       <div className='flex flex-col pt-20'>
         <h2 className='text-5xl mx-auto'>About me</h2>
         <hr className='w-24 mx-auto my-5 border-[#e91e62] border-2' />
-        <h3 className='text-2xl mx-auto opacity-80'>Who am I?</h3>
-        <p className='text-xl mx-auto w-1/2 mt-5'>
+        <h3 className='text-2xl mx-auto opacity-80 text-center'>Who am I?</h3>
+        <p className='text-xl mx-auto w-5/6 lg:w-1/2 mt-5'>
           I am <span className='text-[#e91e62]'>Fabian</span>, a passionate{' '}
           <span className='text-[#e91e62]'>Fullstack Developer</span> with{' '}
           {experienceInYears} years of experience in Web Development. I thrive
           on creating innovative solutions and am always eager to learn new
           technologies.
         </p>
-        <p className='text-xl mx-auto w-1/2 mt-5'>
+        <p className='text-xl mx-auto w-5/6 lg:w-1/2 mt-5'>
           My journey in the tech industry started in 2019 when I began my dual
           studies at{' '}
           <a
@@ -44,7 +44,7 @@ export const AboutMeSection = () => {
           the players of our Dungeons & Dragons party as the{' '}
           <span className='text-[#e91e62]'>Dungeon Master</span>.
         </p>
-        <h3 className='text-2xl mx-auto w-1/2 mt-5'>
+        <h3 className='text-2xl mx-auto w-5/6 lg:w-1/2 mt-5'>
           After work I{' '}
           <WordRoller
             words={[
@@ -62,11 +62,12 @@ export const AboutMeSection = () => {
               '☕️ dive into the rabbit hole of espresso brewing',
               '🌱 tend to my garden',
               '💨 enjoy the breeze of the wadden sea',
+              '🏄‍♂️ learn how to windsurf',
             ]}
           />
           .
         </h3>
-        <p className='text-xl mx-auto w-1/2 mt-5'>
+        <p className='text-xl mx-auto w-5/6 lg:w-1/2 mt-5'>
           I am open to new <span className='text-[#e91e62]'>Opportunities</span>{' '}
           where I can contribute, learn and grow. If you have a demand for my
           skills or just want to chat, feel free to{' '}

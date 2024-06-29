@@ -22,7 +22,7 @@ import {
   FaThumbsUp,
 } from 'react-icons/fa';
 import { FaPeopleCarryBox, FaPersonRays } from 'react-icons/fa6';
-import { IoPhonePortraitOutline } from 'react-icons/io5';
+import { IoLogoFirebase, IoPhonePortraitOutline } from 'react-icons/io5';
 import { MdConveyorBelt, MdDesignServices, MdHttp } from 'react-icons/md';
 import { RiTeamFill } from 'react-icons/ri';
 import {
@@ -317,6 +317,15 @@ export const softwareDevelopmentSkills: Skill[] = [
     icon: <SiDigitalocean className='h-10 w-10' />,
   },
   {
+    title: 'Firebase',
+    category: 'Software Development',
+    skillLevelPercent: 20,
+    description: 'For when you just want to do Frontend.',
+    projects: [],
+    tags: ['cloud', 'backend'],
+    icon: <IoLogoFirebase className='h-10 w-10' />,
+  },
+  {
     title: 'REST API',
     category: 'Software Development',
     skillLevelPercent: 70,
@@ -397,7 +406,7 @@ export const additionalSkills: Skill[] = [
     icon: <SiMacos className='h-10 w-10' />,
   },
   {
-    title: 'Linus',
+    title: 'Linux',
     category: 'Additional Skills',
     skillLevelPercent: 85,
     description: 'The penguin is my friend.',
