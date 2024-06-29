@@ -5,10 +5,7 @@ import { Socials } from '../../components/Socials/Socials';
 
 export const HeroSection = () => {
   return (
-    <section
-      id='hero'
-      className='min-h-screen h-fit w-screen flex flex-col bg-red-500'
-    >
+    <section id='hero' className='min-h-screen h-fit w-screen flex flex-col'>
       <Navbar />
       <div className='mx-auto my-auto flex flex-col lg:flex-row items-center'>
         <div className='lg:w-5/12 my-auto'>
