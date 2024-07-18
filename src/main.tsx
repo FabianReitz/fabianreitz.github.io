@@ -2,16 +2,18 @@ import './index.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BetaBanner } from './components/BetaBanner/BetaBanner';
-import { AboutMeSection } from './sections/AboutMeSection/AboutMeSection';
-import { HeroSection } from './sections/HeroSection/HeroSection';
-import { SkillsSection } from './sections/SkillsSection/SkillsSection';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { Root } from './routes/root';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Root />,
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BetaBanner />
-    <HeroSection />
-    <AboutMeSection />
-    <SkillsSection />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
