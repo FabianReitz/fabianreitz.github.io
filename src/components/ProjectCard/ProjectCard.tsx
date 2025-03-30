@@ -76,7 +76,7 @@ export const ProjectCard = (props: ProjectCardProps) => {
           </div>
         )}
       </div>
-      <div className='flex gap-4 px-5'>
+      <div className='flex gap-4 px-5 mt-auto'>
         {props.isOpenSource ? (
           <button
             onClick={() => window.open(props.repositoryUrl, '_blank').focus()}
