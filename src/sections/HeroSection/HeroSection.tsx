@@ -1,5 +1,4 @@
 import { FaArrowDown } from 'react-icons/fa';
-
 import { Navbar } from '../../components/Navbar/Navbar';
 import { Socials } from '../../components/Socials/Socials';
 
@@ -25,9 +24,9 @@ export const HeroSection = () => {
         <div className='w-auto mx-auto mt-16'>
           <div className='size-fit rounded-3xl border border-cyan-500 rotate-6'>
             <div className='size-fit rounded-3xl border border-cyan-500 rotate-6'>
-              <div className='size-fit rounded-3xl border border-cyan-500 rotate-6'>
+              <div className='size-fit rounded-3xl border border-cyan-500 rotate-6 max-w-full overflow-hidden'>
                 <img
-                  className='rotate-[-18deg] h-80 lg:h-[450px]'
+                  className='rotate-[-18deg] h-72 lg:h-[450px]'
                   src='./img/me.png'
                   alt='Fabian portrait'
                 />
@@ -36,7 +35,10 @@ export const HeroSection = () => {
           </div>
         </div>
       </div>
-      <FaArrowDown className='fill-slate-300 w-16 h-16 animate-bounce mx-auto mt-24' />
+      <FaArrowDown
+        onClick={() => (window.location.href = '#about-me')}
+        className='fill-slate-300 w-16 h-16 animate-bounce mx-auto mt-24 cursor-pointer'
+      />
     </section>
   );
 };
