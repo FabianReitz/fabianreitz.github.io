@@ -97,6 +97,11 @@ export const ProjectCard = (props: ProjectCardProps) => {
           <button
             onClick={() => window.open(props.liveUrl, '_blank').focus()}
             className='text-cyan-500 text-sm hover:text-cyan-400 transition-all'
+            data-umami-event={
+              'projects-' +
+              props.title.toLowerCase().replace(/\s+/g, '-') +
+              '-website'
+            }
           >
             {props.linkText || 'Website'}
           </button>

@@ -24,6 +24,7 @@ export const AboutMeSection = () => {
             target='_blank'
             rel='noopener noreferrer'
             className='text-cyan-500 hover:underline'
+            data-umami-event='about-me-stadtwerk'
           >
             stadt.werk GmbH
           </a>{' '}
@@ -34,6 +35,7 @@ export const AboutMeSection = () => {
             target='_blank'
             rel='noopener noreferrer'
             className='text-cyan-500 hover:underline'
+            data-umami-event='about-me-bachelor-thesis'
           >
             Bachelor of Science degree
           </a>{' '}
@@ -74,6 +76,7 @@ export const AboutMeSection = () => {
           <a
             href='mailto:hello@fabianreitz.dev'
             className='text-cyan-500 hover:underline'
+            data-umami-event='about-me-email'
           >
             reach out
           </a>{' '}

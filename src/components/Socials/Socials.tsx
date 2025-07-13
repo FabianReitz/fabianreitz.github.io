@@ -15,6 +15,7 @@ export const Socials = () => {
         rel='noopener noreferrer'
         href='https://github.com/FabianReitz'
         className='size-fit'
+        data-umami-event='social-github'
       >
         <FaGithubSquare className={iconStyles} />
       </a>
@@ -23,6 +24,7 @@ export const Socials = () => {
         rel='noopener noreferrer'
         href='https://www.linkedin.com/in/fabianreitzdev'
         className='size-fit'
+        data-umami-event='social-linkedin'
       >
         <FaLinkedin className={iconStyles} />
       </a>
@@ -31,6 +33,7 @@ export const Socials = () => {
         rel='noopener noreferrer'
         href='https://www.xing.com/profile/Fabian_Reitz'
         className='size-fit'
+        data-umami-event='social-xing'
       >
         <FaXingSquare className={iconStyles} />
       </a>
@@ -39,6 +42,7 @@ export const Socials = () => {
         rel='noopener noreferrer'
         href='https://www.instagram.com/fabianreitzdev/'
         className='size-fit'
+        data-umami-event='social-instagram'
       >
         <FaInstagramSquare className={iconStyles} />
       </a>
