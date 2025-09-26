@@ -20,18 +20,21 @@ export const SkillsSection = () => {
       <h4 className='text-2xl mx-auto mt-10 w-full text-center'>
         Software Development
       </h4>
-      <SkillsContainer skills={softwareDevelopmentSkills} />
+      <SkillsContainer
+        skills={softwareDevelopmentSkills}
+        name='software-development-skills'
+      />
 
       <h4 className='text-2xl mx-auto mt-10 w-full text-center'>Design</h4>
-      <SkillsContainer skills={designSkills} />
+      <SkillsContainer skills={designSkills} name='design-skills' />
 
       <h4 className='text-2xl mx-auto mt-10 w-full text-center'>
         Additional Skills
       </h4>
-      <SkillsContainer skills={additionalSkills} />
+      <SkillsContainer skills={additionalSkills} name='additional-skills' />
 
       <h4 className='text-2xl mx-auto mt-10 w-full text-center'>Soft Skills</h4>
-      <SkillsContainer skills={softSkills} />
+      <SkillsContainer skills={softSkills} name='soft-skills' />
     </section>
   );
 };

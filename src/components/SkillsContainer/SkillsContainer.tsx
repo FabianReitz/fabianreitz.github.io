@@ -1,9 +1,9 @@
 import { useState } from 'react';
-
 import { Skill, SoftSkill } from '../../types/Skill';
 import { SkillCard } from '../SkillCard/SkillCard';
 
 interface SkillsContainerProps {
+  name: string;
   skills: SoftSkill[] | Skill[];
 }
 
@@ -32,6 +32,11 @@ export const SkillsContainer = (props: SkillsContainerProps) => {
           <button
             className='text-cyan-500 text-lg hover:text-cyan-400 transition-all'
             onClick={() => setIsExpanded(!isExpanded)}
+            data-umami-event={
+              isExpanded
+                ? `skills-show-less-${props.name}`
+                : `skills-show-more-${props.name}`
+            }
           >
             {isExpanded ? 'Less' : 'More'}
           </button>
